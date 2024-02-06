@@ -1,1 +1,110 @@
-/* Add screen styles below */
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* Typography Styles */
+
+h1 {
+    font-family: "Zilla Slab", serif;
+    font-size: 48.828px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #141414; /* Night */
+}
+
+h2 {
+    font-family: "Zilla Slab", serif;
+    font-size: 39.063px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #141414; /* Night */
+}
+
+.title {
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #141414; /* Night */
+}
+
+p {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #141414; /* Night */
+}
+
+.highlight {
+    color: #5762D5; /* Savoy Blue */
+}
+
+/* Body Styles */
+
+body {
+    background: #FDFFFC; /* Baby Powder */
+}
+
+/* Header Styles */
+
+header {
+    background: #FDFFFC; /* Baby Powder */
+    box-shadow: 0px 8px 16px 0px rgba(218, 218, 218, 0.25);
+    padding: 24px;
+}
+
+/* Main Styles */
+
+main {
+    width: 800px;
+    margin: 0 auto;
+    padding: 128px 0;
+}
+
+/* Homepage Styles */
+
+#intro {
+    text-align: center;
+}
+
+#profile {
+    display: flex;
+    align-items: center;
+    margin-top: 64px;
+}
+
+#profile h2 {
+    margin-bottom: 8px;
+}
+
+#profile div {
+    padding-left: 64px;
+}
+
+img {
+    width: 224px;
+    height: 224px;
+}
